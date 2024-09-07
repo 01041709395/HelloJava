@@ -12,7 +12,7 @@ public class HelloController {
     @GetMapping("hello")
     public String Hello(Model model) {
         model.addAttribute("date","Spring");
-        return "";
+        return "hello!";
     }
 
     @GetMapping("hello-mvc")
